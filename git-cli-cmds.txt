@@ -1,0 +1,33 @@
+git init
+
+create file..touch filename
+
+git add filename
+
+git status
+
+git log
+
+git commit -m "Optional Message"
+
+git branch 
+
+git branch branchname
+
+git checkout branchname
+
+git branch -M "main" --rename the  master branch
+
+git remote --shows origin
+
+git remote set-url origin https://github.com/Ramesh-kumar-S/py-ground.git --to set the repo as origin
+
+git remote add origin https://github.com/Ramesh-kumar-S/py-ground.git
+
+git push -u origin main
+
+git merge branch1 --merges branch1 to main
+
+git diff hash1 hash2
+
+
