@@ -1,3 +1,5 @@
+curl https://api.github.com/user/repos?access_token=myAccessToken -d '{"name":"REPO"}'  --CREATE THE REPO VIA CLI
+
 git init
 
 create file..touch filename
@@ -23,6 +25,9 @@ git remote --shows origin
 git remote set-url origin https://github.com/Ramesh-kumar-S/py-ground.git --to set the repo as origin
 
 git remote add origin https://github.com/Ramesh-kumar-S/py-ground.git
+
+git remote remove origin
+
 
 git push -u origin main
 
